@@ -53,12 +53,13 @@ section ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	text-align: right; /* alinear a la derecha */
 }
 
 section li {
-	margin-bottom: 10px;
+	display: inline-block; /* mostrar los botones en línea */
+	margin: 0 10px; /* agregar un margen entre los botones */
 }
-
 section img {
 	max-width: 100%;
 }
