@@ -57,8 +57,7 @@ section ul {
 }
 
 section li {
-	display: inline-block; /* mostrar los botones en línea */
-	margin: 0 10px; /* agregar un margen entre los botones */
+	margin: 10px; /* agregar un margen entre los botones */
 }
 section img {
 	max-width: 100%;
