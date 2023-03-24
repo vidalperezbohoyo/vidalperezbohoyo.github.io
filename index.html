@@ -1,7 +1,71 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<meta charset="UTF-8">
+	<title>Robot X - Mi Robot Personalizado</title>
+	<link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<header>
+		<h1>Robot X</h1>
+		<nav>
+			<ul>
+				<li><a href="#inicio">Inicio</a></li>
+				<li><a href="#caracteristicas">Características</a></li>
+				<li><a href="#especificaciones">Especificaciones</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="inicio">
+			<h2>¡Bienvenidos a mi Robot Personalizado!</h2>
+			<p>Este robot es una creación personalizada diseñada para facilitar su vida diaria. Con una gran cantidad de características y especificaciones avanzadas, mi robot se adapta a cualquier necesidad.</p>
+			<img src="images/robot.jpg" alt="Robot X">
+		</section>
+
+		<section id="caracteristicas">
+			<h2>Características</h2>
+			<ul>
+				<li>Asistente personalizado</li>
+				<li>Reconocimiento de voz</li>
+				<li>Sensor de movimiento</li>
+				<li>Sistema de navegación</li>
+				<li>Conexión a internet</li>
+			</ul>
+		</section>
+
+		<section id="especificaciones">
+			<h2>Especificaciones</h2>
+			<ul>
+				<li>Peso: 1.5 kg</li>
+				<li>Altura: 35 cm</li>
+				<li>Ancho: 25 cm</li>
+				<li>Batería: 10 horas de duración</li>
+				<li>Memoria: 500 GB</li>
+			</ul>
+		</section>
+
+		<section id="contacto">
+			<h2>Contacto</h2>
+			<form action="submit-form.php" method="post">
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="mensaje">Mensaje:</label>
+				<textarea id="mensaje" name="mensaje" required></textarea>
+
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>Diseñado y creado por mi nombre.</p>
+	</footer>
 </body>
 </html>
