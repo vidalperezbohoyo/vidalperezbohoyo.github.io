@@ -1,7 +1,21 @@
 @font-face {
-	font-family: "nombre-de-tu-fuente";
-	src: url("fonts/nombre-de-tu-fuente.ttf");
+	font-family: "titleFont";
+	src: url("fonts/gd.otf");
 }
+
+h1 {
+	font-size: 42px;
+	/*font-family: "titleFont", sans-serif;*/
+}
+
+a {
+	color: #ff0000; /* Cambiar el color del texto del enlace */
+	text-decoration: none; /* Eliminar la línea de subrayado */
+	background-color: none; /* Cambiar el fondo del enlace */
+	padding: 5px; /* Agregar un espacio de relleno */
+	border-radius: 5px; /* Agregar un borde redondeado */
+}
+
 
 body {
 	background-color: #F2F2F2;
