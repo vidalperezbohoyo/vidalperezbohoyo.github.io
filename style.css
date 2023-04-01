@@ -3,6 +3,16 @@
 	src: url("fonts/gd.otf");
 }
 
+textarea {
+    border: 1px solid #ccccccce;
+    background-color: #f8f8f8d4;
+    font-family: monospace;
+    font-size: 14px;
+    padding: 8px;
+	resize: none;
+	width: 100%;
+}
+
 h1 {
 	font-size: 42px;
 	/*font-family: "titleFont", sans-serif;*/
