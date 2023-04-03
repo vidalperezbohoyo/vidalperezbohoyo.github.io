@@ -3,6 +3,14 @@
 	src: url("fonts/gd.otf");
 }
 
+.isotype {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10vw; 
+	height: auto;
+}
+
 textarea {
     border: 1px solid #ccccccce;
     background-color: #f8f8f8d4;
@@ -52,6 +60,13 @@ nav ul li {
 
 nav ul li a:hover {
 	background-color: #00ff4c;
+}
+
+.makersMenu {
+	text-align: center;
+}
+.makersMenu li a:hover {
+	background-color: #00ccff;
 }
 
 nav ul li a {
